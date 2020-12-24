@@ -1,0 +1,83 @@
+/* color:#fdcb6e */
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #f1f1f1;
+}
+#logo{
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+    align-self: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-bar{
+    align-self: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+ 
+}
+.menubar{
+    /* justify-content: space-evenly; */
+    margin-right: 50px;
+    text-decoration: none;
+
+}
+.nav_link{
+    font-size: 1.5em;
+    color: gray;
+    text-decoration: none;
+}
+.open-account{
+    background-color: #fdcb6e;
+    height: 40px;
+    align-items: center;
+    border-radius: 3rem;
+}
+.front-title{
+    display: inline-flex;
+    font-size: 7vh;
+    flex-direction: column;
+    
+}
+#money-img{
+    float: right;
+    width: 30em;
+    margin-top: 8em;
+}
+.money-pic{
+    float: right;
+}
+.front-title h1{
+    margin-bottom: 0;
+}
+.front-title h4{
+    margin:0;
+}
+.btn--text{
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    width: 10em;
+    text-decoration: underline;
+    font-weight: 700;
+    color:#fdcb6e ;
+}
+.highlight{
+    background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFB88C, #fdcb6e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFB88C, #fdcb6e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius:20px ;
+}
