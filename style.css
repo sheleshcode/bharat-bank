@@ -6,7 +6,7 @@
 body{
     margin-left: 100px;
     margin-right: 100px;
-    background-color: #f1f1f1;
+    background-color:#EBECE7;
 }
 #logo{
     border-radius: 50%;
@@ -80,4 +80,71 @@ nav{
     background: linear-gradient(to right, #FFB88C, #fdcb6e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-top-left-radius: 50px;
     border-bottom-right-radius:20px ;
+}
+.section{
+    margin-top:8em ;
+}
+.section_title{
+    color: #f7a206;
+   
+}
+.section_description{
+    font-size: 3em;
+}
+.feature__feature{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+.feature_img{
+    width: 35em;
+    border-radius: 10%;
+}
+.feature__description{
+    margin-left: 5em;
+}
+.feature__description h3{
+    font-size: 3em;
+
+}
+.sectiontitle{
+    margin-left:20em ;
+}
+section{
+    border-bottom:solid 2px gray;
+}
+.btn{
+    display: inline-block;
+    font-size: 1.6rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.operations_container{
+    margin-left: 24rem;
+    padding:1.25rem 4.5 rem;
+}
+.operations__tab--1{
+    background-color: rgb(200, 230, 33);
+    border-radius: 3rem;
+}
+.operations__tab--2{
+    background-color: rgb(85, 163, 85);
+    border-radius: 3rem;
+}
+.operations__tab--3{
+    background-color: rgb(224, 86, 86);
+    border-radius: 3rem;
+}
+.operations_container2{
+    display: inline-block;
+    padding:2rem;
+    margin-left: 13rem;
+    font-size: 1.5em;
+    background-color: white;
+  
+}
+.operations_container2 h3{
+    color:gray;
 }
