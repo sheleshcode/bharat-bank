@@ -108,11 +108,11 @@ nav{
     font-size: 3em;
 
 }
-.sectiontitle{
-    margin-left:20em ;
-}
+
+
 section{
     border-bottom:solid 2px gray;
+    padding-top: 1rem;
 }
 .btn{
     display: inline-block;
@@ -121,30 +121,49 @@ section{
     font-weight: 500;
     cursor: pointer;
 }
+.operation{
+    margin-bottom: 4rem;
+}
 .operations_container{
     margin-left: 24rem;
     padding:1.25rem 4.5 rem;
+    
 }
 .operations__tab--1{
     background-color: rgb(200, 230, 33);
     border-radius: 3rem;
+    width: 13rem;
+    height: auto;
 }
 .operations__tab--2{
     background-color: rgb(85, 163, 85);
     border-radius: 3rem;
+    width: 13rem;
+    height: auto;
 }
 .operations__tab--3{
     background-color: rgb(224, 86, 86);
     border-radius: 3rem;
+    width: 13rem;
+    height: auto;
 }
 .operations_container2{
     display: inline-block;
-    padding:2rem;
+    padding:3rem;
     margin-left: 13rem;
     font-size: 1.5em;
     background-color: white;
+    text-align: justify;
   
 }
 .operations_container2 h3{
+    margin-left: 2rem;
     color:gray;
+}
+.operations_container2 p{
+    margin-left: 2rem;
+    font-style: italic;
+}
+.testimonial_des{
+    margin-left: 17em;
 }
