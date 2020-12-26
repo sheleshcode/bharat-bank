@@ -4,8 +4,7 @@
 
 }
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+
     background-color:#EBECE7;
 }
 #logo{
@@ -83,6 +82,8 @@ nav{
 }
 .section{
     margin-top:8em ;
+    margin-left: 8em;
+    margin-right: 8em;
 }
 .section_title{
     color: #f7a206;
@@ -98,7 +99,7 @@ nav{
 
 }
 .feature_img{
-    width: 35em;
+    width: 30em;
     border-radius: 10%;
 }
 .feature__description{
@@ -166,4 +167,106 @@ section{
 }
 .testimonial_des{
     margin-left: 17em;
+}
+.testimonial__text {
+    font-size: 1.7rem;
+    margin-bottom: 3.5rem;
+    color: #666;
+}
+blockquote {
+    display: block;
+  
+   
+}
+.slide {
+    position: absolute;
+    top: 0;
+    width: 60%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20rem;
+    transition: transform 1s;
+}
+
+.slider{
+    max-width: 100rem;
+    height: 20rem;
+    margin: 0 ;
+    position: relative;
+    overflow: hidden;
+}
+.testimonial-button{
+    display: flex;
+    justify-content: center;
+    
+}
+.next-button{
+    background: -webkit-linear-gradient(to right, #FFB88C, #fdcb6e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFB88C, #fdcb6e);
+    border-radius: 50%;
+    height: 3rem;
+    width: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    
+}
+#section--4{
+    background-color: wheat;
+    margin-left: 0;
+    height: 15em;
+    display: flex;
+}
+
+.c2A{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30rem;
+    width: 50rem;
+    font-size: 1.5rem;
+}
+.calltoAction{
+    margin-left: 3rem;
+    border-radius: 10rem;
+    font-weight: 900;
+    color: white;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 3rem;
+    width: 17rem;
+    cursor: pointer;
+}
+.footer-links{
+    display: flex;
+    padding-top: 7%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: wheat;
+    justify-content: space-between;
+   
+}
+.footer{
+    background-color: wheat;
+}
+.footer-links a{
+    text-decoration: none;
+    color :rgb(71, 70, 70);
+    font-weight: 600;
+}
+
+.logo{
+    padding-top: 3%;
+    padding-left: 45%; 
+    width: 100px;
+    display: inline;
+    border-radius: 50%;
+    
+}
+.accredit{
+    padding-left: 40%;
+    padding-bottom: 5%;
+    font-weight: 700;
+
 }
